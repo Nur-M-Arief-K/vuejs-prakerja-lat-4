@@ -1,26 +1,18 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <h1 class="container-xxl fs-1 text-success">To Do List</h1>
+  <DaftarKegiatan />
+  <FormulirTambahKegiatan />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import FormulirTambahKegiatan from "./components/FormulirTambahKegiatan.vue";
+import DaftarKegiatan from "./components/DaftarKegiatan.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    HelloWorld
-  }
-}
+    FormulirTambahKegiatan,
+    DaftarKegiatan,
+  },
+};
 </script>
-
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

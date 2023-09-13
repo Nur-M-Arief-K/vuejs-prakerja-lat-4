@@ -1,4 +1,10 @@
 # latihan-materi-4
+Repositori ini berisi solusi latihan materi ke-4 dari pelatihan Vue JS pada program kartu prakerja. Latihan ini mencakup penggunaan Single File Component (SFC), Vuex sebagai penyimpanan global, lifecycle hooks pada komponen vue. 
+
+## Perintah latihan
+![perintah latihan 1](/task/latihan-1.jpg)
+![perintah latihan 2](/task/latihan-2.jpg)
+![perintah latihan 3](/task/latihan-3.jpg)
 
 ## Project setup
 ```
